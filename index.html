@@ -1,0 +1,923 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Шафран</title>
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+
+	<!--  слик	 -->
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<link href="slick/slick.css" rel="stylesheet">
+	<link href="slick/slick-theme.css" rel="stylesheet">
+	<!--  слик	 -->
+</head>
+<body>
+	<header class="wrap">
+		<div class="top_line">
+			<a href="/"><img class="top_logo" src="img/logo_head.png"></a>
+
+			<div class="cotacts_box">
+				<div class="wats_telega">
+					<a class="wats_img" href="#"><img src="img/wats_icon.svg"></a>
+					<a href="#"><img src="img/telegr_icon.svg"></a>
+				</div>
+				<div class="phone_box">
+					<a class="heder_phone" href="tel:+7 (495) 66-525-88">
+						+7 (495) 66-525-88
+					</a>
+					<div class="hours">Ежедневно с 10:00 до 22:00</div>
+				</div>
+				<button class="open-popup">Заказать звонок</button>
+			</div>
+
+			<div class="burger hide">
+				<div></div>
+				<div class="middle"></div>
+				<div></div>
+			</div>
+		</div>
+
+		<div class="head_menu_box">
+			<div>
+				<a href="/"><img class="top_logo hide mobile" src="img/logo_head.png"></a>
+				<ul class="head_menu">
+					<li class="more_items">
+						<a href="#">
+							<span>Частным клиентам</span>
+							<img class="arrow" src="img/down_arrow.svg">
+						</a>
+
+						<div class="var_box" style="display: none;">
+							<div class="sect_boxx">
+								<div class="sec_title">Уборка квартир</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+							</div>
+
+							<div class="sect_boxx">
+								<div class="sec_title">Уборка квартир</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								
+							</div>
+
+							<div class="sect_boxx">
+								<div class="sec_title">Уборка квартир</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+							</div>
+						</div>
+					</li>
+
+					<li class="more_items">
+						<a href="#">
+							<span>Юридическим лицам</span>
+							<img class="arrow" src="img/down_arrow.svg">
+						</a>
+
+						<div class="var_box" style="display: none;">
+							<div class="sect_boxx">
+								<div class="sec_title">Уборка квартир</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+							</div>
+
+							<div class="sect_boxx">
+								<div class="sec_title">Уборка квартир</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								
+							</div>
+
+							<div class="sect_boxx">
+								<div class="sec_title">Уборка квартир</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+								<div class="sec_item">После ремонта</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<a href="#">
+							<span>Отзывы</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<span>Новости</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<span>Вакансии</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<span>Контакты</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="cotacts_box mobile hide">
+				<div class="icons_phon">
+					<div class="wats_telega">
+						<a class="wats_img" href="#"><img src="img/wats_icon.svg"></a>
+						<a href="#"><img src="img/telegr_icon.svg"></a>
+					</div>
+					<div class="phone_box">
+						<a class="heder_phone" href="tel:+7 (495) 66-525-88">
+							+7 (495) 66-525-88
+						</a>
+						<div class="hours">Ежедневно с 10:00 до 22:00</div>
+					</div>
+				</div>
+				<button class="open-popup">Заказать звонок</button>
+			</div>
+		</div>
+	</header>
+
+	<section class="calc_ban">
+		<div class="wrap">
+			<div>
+				<div class="sub_title">Клининговая компания</div>
+				<h1 class="main_title">Shafran Clean</h1>
+				<div class="about_text">
+					Доступная уборка в Москве и Московской
+					области без опасных химикатов
+				</div>
+				<a id="calc_scroll_butt" href="#calc_scroll">
+					<button class="open-popup">Рассчитать стоимость</button>
+				</a>
+			</div>
+			<img class="worker" src="img/head_woomen.svg">
+		</div>
+		<img class="fon_img" src="img/head_ban_fon.png">
+	</section>
+
+	<section class="why_we wrap sect_box">
+		<h2 class="head_title">Почему к нам возвращаются</h2>
+		<div class="why_descr">
+			Понимаем желания клиента и всегда работаем на результат
+			— это то, что отличает нас от других компаний 
+		</div>
+
+		<div class="adv_box">
+			<div class="adv_item">
+				<img class="adv_img" src="img/adv_img.png">
+				<div class="adv_text_box">
+					<h2 class="adv_title">Гарантия качества</h2>
+					<div class="adv_text">
+						Гарантия качества проверяется специальным чек-листом для каждого объекта
+					</div>
+				</div>
+			</div>
+
+			<div class="adv_item">
+				<img class="adv_img" src="img/adv_img.png">
+				<div class="adv_text_box">
+					<h2 class="adv_title">Гарантия качества</h2>
+					<div class="adv_text">
+						Гарантия качества проверяется специальным чек-листом для каждого объекта
+					</div>
+				</div>
+			</div>
+
+			<div class="adv_item">
+				<img class="adv_img" src="img/adv_img.png">
+				<div class="adv_text_box">
+					<h2 class="adv_title">Гарантия качества</h2>
+					<div class="adv_text">
+						Гарантия качества проверяется специальным чек-листом для каждого объекта
+					</div>
+				</div>
+			</div>
+
+			<div class="adv_item">
+				<img class="adv_img" src="img/adv_img.png">
+				<div class="adv_text_box">
+					<h2 class="adv_title">Гарантия качества</h2>
+					<div class="adv_text">
+						Гарантия качества проверяется специальным чек-листом для каждого объекта
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<section class="profess wrap sect_box">
+		<div class="text_img">
+			<div class="text_box">
+				<h2 class="head_title">
+					Профессиональный клининг будьте уверенны в качестве услуг 
+				</h2>
+				<div class="all_text">
+					Мы предоставляем все виды клининговых услуг при помощи специального оборудования и профессиональной химии поможет навести в вашем офисе идеальную чистоту! Shafran Clean - клининговая компания в Москве по уборке офисов по отличным ценам, от простой до генеральной уборки, любой сложности.
+					<br>
+					<br>
+					<br>
+					Преимущеcтва Shafran-Clean:
+					<br>
+					<br>
+					Доверьте чистоту нам, а сами займитесь более приятными делами. Поможем навести порядок в вашем офисе или ТЦ комплексной уборкой, после пожара, вывести насекомых и провести дезинфекцию помещения. Нам доверяют десятки крупных компаний столицы, среди которых Home Market, Francesco Donni, Терволина, Лукойл, Додо Пицца.
+				</div>
+			</div>
+
+			<div class="img_box">
+				<img class="fon" src="img/proff.png">
+				<img class="women" src="img/woomen_proff.png">
+				<div class="about_img">
+					Оградим вас от доделок, которые случаются при работес ненадежными клининговыми компаниями.
+				</div>
+			</div>
+		</div>
+
+		<a href="#" class="more_info">
+			<div>Подробнее о компании</div>
+			<img src="img/right_arrow.svg">
+		</a>
+	</section>
+
+	<section class="serv wrap sect_box">
+		<h2 class="head_title">Основные виды услуг</h2>
+		<div class="sub_title">Наводим чистоту и порядок с 2016 года</div>
+		<div class="serv_box">
+			<div class="serv_item">
+				<img class="serv_img" src="img/serv_img.png">
+				<h2 class="serv_title">Генеральная уборка в квартире</h2>
+				<div class="serv_text">
+					Комплекс работ по удалению
+					пыли и грязи даже в самых труднодоступных местах.
+				</div>
+
+				<div class="price_line">
+					<div class="price">от 6 500 р.</div>
+					<button class="open-popup">Подробнее</button>
+				</div>	
+			</div>
+
+			<div class="serv_item">
+				<img class="serv_img" src="img/serv_img.png">
+				<h2 class="serv_title">Генеральная уборка в квартире</h2>
+				<div class="serv_text">
+					Комплекс работ по удалению
+					пыли и грязи даже в самых труднодоступных местах.
+				</div>
+
+				<div class="price_line">
+					<div class="price">от 6 500 р.</div>
+					<button class="open-popup">Подробнее</button>
+				</div>	
+			</div>
+
+			<div class="serv_item discount">
+				<img class="serv_img_back" src="img/serv_back.svg">
+				<div class="back_content">
+					<h2 class="serv_back_title">
+						Скидка 10% на <br> первый заказ
+					</h2>
+					<button class="open-popup">Подробнее</button>
+				</div>
+			</div>
+
+			<div class="serv_item">
+				<img class="serv_img" src="img/serv_img.png">
+				<h2 class="serv_title">Генеральная уборка в квартире</h2>
+				<div class="serv_text">
+					Комплекс работ по удалению
+					пыли и грязи даже в самых труднодоступных местах.
+				</div>
+
+				<div class="price_line">
+					<div class="price">от 6 500 р.</div>
+					<button class="open-popup">Подробнее</button>
+				</div>	
+			</div>
+
+			<div class="serv_item">
+				<img class="serv_img" src="img/serv_img.png">
+				<h2 class="serv_title">Генеральная уборка в квартире</h2>
+				<div class="serv_text">
+					Комплекс работ по удалению
+					пыли и грязи даже в самых труднодоступных местах.
+				</div>
+
+				<div class="price_line">
+					<div class="price">от 6 500 р.</div>
+					<button class="open-popup">Подробнее</button>
+				</div>	
+			</div>
+
+			<div class="serv_item">
+				<img class="serv_img" src="img/serv_img.png">
+				<h2 class="serv_title">Генеральная уборка в квартире</h2>
+				<div class="serv_text">
+					Комплекс работ по удалению
+					пыли и грязи даже в самых труднодоступных местах.
+				</div>
+
+				<div class="price_line">
+					<div class="price">от 6 500 р.</div>
+					<button class="open-popup">Подробнее</button>
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<section class="calc sect_box" id="calc_scroll">
+		<div class="wrap">
+			<h2 class="calc_title">Бесплатно рассчитаем стоимость вашей уборки</h2>
+			<form>
+				<div class="sel_box inp_box">
+					<div id="type_room_select">Тип помещения</div>
+					<img src="img/down_arrow.svg">
+					<div class="vars_box hide">
+						<div class="var_item">Комната</div>
+						<div class="var_item">Офис</div>
+						<div class="var_item">Дом</div>
+					</div>
+				</div>
+				<input placeholder="Введите м²" class="inp_box" type="number">
+				<button class="open-popup">Подробнее</button>
+			</form>
+		</div>
+	</section>
+
+	<section class="reviews wrap sect_box">
+		<h2 class="head_title">Отзывы наших клиентов</h2>
+		<div class="reviews_slider">
+			<div class="rew_slide">
+				<div class="rew_item">
+					<div class="stars_box">
+						<img class="star" src="img/star.svg">
+						<img class="star" src="img/star.svg">
+						<img class="star" src="img/star.svg">
+						<img class="star" src="img/star.svg">
+						<img class="star" src="img/star.svg">
+					</div>
+
+					<div class="rew_text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+					</div>
+
+					<div class="ava_box">
+						<div class="img_box">
+							<img src="img/head_ban_fon.png">
+						</div>
+
+						<div>
+							<div class="name">Ольга</div>
+							<div class="date">07/09/2023</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="rew_slide">
+				<div class="rew_item">
+					<div class="stars_box">
+						<img class="star" src="img/star.svg">
+						<img class="star" src="img/star.svg">
+						<img class="star" src="img/star.svg">
+					</div>
+
+					<div class="rew_text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+					</div>
+
+					<div class="ava_box">
+						<div class="img_box">
+							<img src="img/head_ban_fon.png">
+						</div>
+
+						<div>
+							<div class="name">Ольга</div>
+							<div class="date">07/09/2023</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="rew_slide">
+				<div class="rew_item">
+					<div class="stars_box">
+						<img class="star" src="img/star.svg">
+						<img class="star" src="img/star.svg">
+						<img class="star" src="img/star.svg">
+					</div>
+
+					<div class="rew_text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+					</div>
+
+					<div class="ava_box">
+						<div class="img_box">
+							<img src="img/head_ban_fon.png">
+						</div>
+
+						<div>
+							<div class="name">Ольга</div>
+							<div class="date">07/09/2023</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="rew_slide">
+				<div class="rew_item">
+					<div class="stars_box">
+						<img class="star" src="img/star.svg">
+						<img class="star" src="img/star.svg">
+						<img class="star" src="img/star.svg">
+					</div>
+
+					<div class="rew_text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+					</div>
+
+					<div class="ava_box">
+						<div class="img_box">
+							<img src="img/head_ban_fon.png">
+						</div>
+
+						<div>
+							<div class="name">Ольга</div>
+							<div class="date">07/09/2023</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="test sect_box">
+		<div class="wrap">
+			<div class="text_box">
+				<h2 class="test_title">Профессиоанльная уборка помещений</h2>
+				<div class="all_text">
+					Полный спектр клининговых услуг по содержанию объектов в чистоте и порядке в Москве, а также генеральной уборки коммерческих предприятий, промышленных предприятий, государственных учреждений, ТЦ, офисов и больших частных домов по приемлемым ценам!
+				</div>
+				<div class="discount">Пройдите тест и получите скидку 10%</div>
+				<a href="#" onclick="Marquiz.showModal('5d84f4c4abcee20044c3ded0')"> 
+					<button class="go_to_test">Пройти тест</button>
+				</a>
+			</div>
+
+			<img class="test_img" src="img/test_wooman.svg">
+		</div>
+	</section>
+
+	<section class="top_ban_serv">
+		<div class="wrap">
+			<div class="nav_chain">
+				<a class="point" href="/">Главная></a>
+				<a class="point" href="#">Уборка квартир></a>
+				<a class="point" href="#">Дезинфекция</a>
+			</div>
+
+			<div class="text_box">
+				<h1 class="main_title">Дезинфекция от вирусов, микробов и плесени в Москве</h1>
+				<div class="about_text">
+					Рассчитайте стоимость дезинфекциии
+					получите скидку 15% на первый заказ.
+				</div>
+				<a id="calc_scroll_butt" href="#calc_scroll">
+					<button class="open-popup">Рассчитать стоимость</button>
+				</a>
+			</div>
+		</div>
+		<img class="fon_img" src="img/serv_ban_fon.png">
+	</section>
+
+	<section class="price_table wrap sect_box">
+		<h2 class="head_title">Цены за дезинфекцию квартиры</h2>
+
+		<div class="table_wrap">
+			<table>
+				<tbody>
+					<tr class="first_line">
+						<th>Площадь</th>
+						<th>Уборка офисов</th>
+						<th>Генеральная уборка</th>
+						<th>Уборка после ремонта</th>
+					</tr>
+					<tr>
+						<th>до 40 кв.м.</th>
+						<th>2 500 руб.</th>
+						<th>2 500 руб.</th>
+						<th>2 500 руб.</th>
+					</tr>
+					<tr>
+						<th>50 кв.м.</th>
+						<th>3 000 руб.</th>
+						<th>3 000 руб.</th>
+						<th>3 000 руб.</th>
+					</tr>
+					<tr>
+						<th>60 кв.м.</th>
+						<th>3 500 руб.</th>
+						<th>3 500 руб.</th>
+						<th>3 500 руб.</th>
+					</tr>
+					<tr class="last_line">
+						<th>100 кв.м.</th>
+						<th>5 500 руб.</th>
+						<th>5 500 руб.</th>
+						<th>5 500 руб.</th>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="attention">
+			Внимание! Цены на услуги не являются окончательными. Точную стоимость уточняйте у менеджеров компании.
+		</div>
+	</section>
+
+	<section class="about_serv wrap sect_box">
+		<div class="text_box">
+			<h2 class="head_title">Дезинфекция от вирусов, микробов и плесени в Москве</h2>
+
+			<div class="all_text">
+				Дезинфекция необходима, чтобы уничтожить патогенные микроорганизмы, удалить следы жизнедеятельности насекомых и грызунов. Обработка специальными препаратами предотвращает возникновение инфекционных заболеваний и эпидемий. Если в квартире находится зараженный человек или питомец, она обязательна. Максимальный эффект можно получить в случае, если дезинфекция и дератизация будут проводиться регулярно. Качественно проведенный санитарный комплекс услуг обеспечивает уничтожение любых вредителей. После обработки не выживет ни один паразит, будь то крыса, мышь, клещ, комар, моль, клоп, таракан, блоха, муравей, шершень. Дезинфектор-профессионал справится даже с нашествием кротов и прочих грызунов, от которых необходимо защищать зерно в домах и на пищеблоках.
+			</div>
+
+			<button class="univ_button">Заказать услугу</button>
+		</div>
+
+		<div class="img_box">
+			<img src="img/serv_ban_fon.png">
+		</div>
+	</section>
+
+	<section class="disc_box wrap sect_box">
+		<img class="fon_img" src="img/hand.png">
+		<h2 class="disc_title">Скидка 15% <br> на первый заказ</h2>
+		<div class="about_text">
+			Получите купон и гарантированную скидку на любыенаши услуги при первом заказе!
+		</div>
+		<button class="univ_button">Подробнее</button>
+	</section>
+
+	<section class="algoritm wrap sect_box">
+		<h2 class="head_title">Простой алгоритм работы</h2>
+		<div class="steps_box">
+			<div class="step_item order">
+				<div class="img_box">
+					<img class="step_img" src="img/serv_ban_fon.png">
+					<div class="number">1</div>
+				</div>
+				<div class="step_text">
+					Оставляете заявку на сайте
+				</div>
+				<button class="univ_button hide">Оставить заявку</button>
+			</div>
+
+			<div class="step_item">
+				<div class="img_box">
+					<img class="step_img" src="img/serv_ban_fon.png">
+					<div class="number">1</div>
+				</div>
+				<div class="step_text">
+					Оставляете заявку на сайте
+				</div>
+				<button class="univ_button hide">Оставить заявку</button>
+			</div>
+
+			<div class="step_item">
+				<div class="img_box">
+					<img class="step_img" src="img/serv_ban_fon.png">
+					<div class="number">1</div>
+				</div>
+				<div class="step_text">
+					Оставляете заявку на сайте
+				</div>
+				<button class="univ_button hide">Оставить заявку</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="workers wrap sect_box">
+		<h2 class="head_title">Уборку осуществляют наши клинеры с опытом от 2-х лет</h2>
+		<div class="workers_box">
+			<div class="work_item">
+				<img class="worker_photo" src="img/worker.webp">
+				<div class="worker_name">Наталья</div>
+				<div class="expir">Опыт работы 4 года</div>
+			</div>
+
+			<div class="work_item">
+				<img class="worker_photo" src="img/worker.webp">
+				<div class="worker_name">Наталья</div>
+				<div class="expir">Опыт работы 4 года</div>
+			</div>
+
+			<div class="work_item">
+				<img class="worker_photo" src="img/worker.webp">
+				<div class="worker_name">Наталья</div>
+				<div class="expir">Опыт работы 4 года</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="cover_prop wrap sect_box">
+		<h2 class="head_title">Свойства ковров</h2> 
+
+		<div class="grid_box">
+
+			<div class="prop_item">
+				<img class="step_img" src="img/step_1.svg" alt="">
+				<div class="prop_title item_text">Задерживают грязь</div>
+				<div class="prop_text item_text">
+					Один квадратный метр наших ковров 
+					способен задерживать до 7 литров 
+					жидкости и 4 килограмм грязи
+				</div>
+			</div>
+
+			<div class="prop_item">
+				<img class="step_img" src="img/step_2.svg" alt="">
+				<div class="prop_title item_text">
+					Экономят средства
+				</div>
+				<div class="prop_text item_text">
+					Вы сэкономите средства на 
+					содержание помещения, а уборка 
+					будет проходить быстрее
+				</div>
+			</div>
+
+			<div class="prop_item">
+				<img class="step_img" src="img/step_3.svg" alt="">
+				<div class="prop_title item_text">
+					Защищают полы
+				</div>
+				<div class="prop_text item_text">
+					Сменные ковровые покрытия задерживают 
+					абразивные частицы, наносящие повреждения 
+					напольному покрытию
+				</div>
+			</div>
+
+			<div class="prop_item">
+				<img class="step_img" src="img/step_4.svg" alt="">
+				<div class="prop_title item_text">
+					Снижают травматизм
+				</div>
+				<div class="prop_text item_text">
+					Благодаря нашим коврам, полы сохраняются в чистом и сухом виде, 
+					что уменьшает риск получения травмы от падения
+				</div>
+			</div>
+
+		</div> 
+	</section>
+
+	<section class="cover_col sect_box">
+		<div class="wrap">
+			<h2 class="head_title">Цвета ковров</h2>
+
+			<div class="col_box">
+
+				<div class="col_item">
+					<img src="img/col_1.jpg" alt="" class="col_img">
+					<div class="col_title">
+						Тёмно-серый
+					</div>
+				</div>
+
+				<div class="col_item">
+					<img src="img/col_2.jpg" alt="" class="col_img">
+					<div class="col_title">
+						Тёмно-коричневый
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<section class="service_col wrap sect_box">
+		<h2 class="head_title">
+			Сервис грязезещитных ковров включает
+		</h2>
+		<div class="grid_box">
+			<div class="serv_item">
+				<div class="img_box">
+					<img class="arrow" src="img/right-arrow.svg" alt=""> 
+					<img src="img/box_1.jpg" alt="" class="serv_img">
+				</div>
+				<div class="serv_text">
+					Замену грязных ковров
+				</div>
+			</div>
+
+			<div class="serv_item">
+				<div class="img_box">
+					<img class="arrow modif" src="img/right-arrow.svg" alt=""> 
+					<img src="img/washing-machine.svg" alt="" class="serv_img">
+				</div>
+				<div class="serv_text">
+					Стирку и профессиональное обслуживание ковров
+				</div>
+			</div>
+
+			<div class="serv_item">
+				<div class="img_box">
+					<img class="arrow" src="img/right-arrow.svg" alt=""> 
+					<img src="img/box_2.jpg" alt="" class="serv_img">
+				</div>
+				<div class="serv_text">
+					Хранение на складе чистых ковров
+				</div>
+			</div>
+
+			<div class="serv_item">
+				<div class="img_box">
+					<img src="img/lorry.svg" alt="" class="serv_img">
+				</div>
+				<div class="serv_text">
+					Регулярную доставку чистых ковров
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="size_table wrap sect_box">
+		<h2 class="head_title">
+			Размеры и площади ковров
+		</h2>
+		
+		<div class="table_wrap">
+			<table class="table">
+				<thead>
+					<tr class="table_head trace">
+						<th class="one col">Размер мата, см.</th>
+						<th class="two col">Площадь мата, кв. м.</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr class="table_item trace">
+						<td class="one col">60 х 85</td>
+						<td class="two col">0,51</td>
+					</tr>
+
+					<tr class="table_item trace">
+						<td class="one col">85 х 150</td>
+						<td class="two col">1,28</td>
+					</tr>
+
+					<tr class="table_item trace">
+						<td class="one col">85 х 300</td>
+						<td class="two col">2,55</td>
+					</tr>
+
+					<tr class="table_item trace">
+						<td class="one col">115 х 200</td>
+						<td class="two col">2,30</td>
+					</tr>
+
+					<tr class="table_item trace">
+						<td class="one col">115 х 240</td>
+						<td class="two col">2,76</td>
+					</tr>
+
+					<tr class="table_item trace">
+						<td class="one col">115 х 400</td>
+						<td class="two col">4,60</td>
+					</tr>
+
+					<tr class="table_item trace">
+						<td class="one col">150 х 240</td>
+						<td class="two col">3,60</td>
+					</tr>
+
+					<tr class="table_item trace">
+						<td class="one col">150 х 300</td>
+						<td class="two col">4,50</td>
+					</tr>
+
+					<tr class="table_item trace">
+						<td class="one col">150 х 600</td>
+						<td class="two col">9,00</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</section>
+
+	<section class="quest_box wrap sect_box">
+		<h2 class="head_title">Ответы на самые часто задаваемые вопросы</h2>
+
+		<div class="quest_form">
+			<div class="left_box">
+				<div class="quest_item">
+					<div class="quest_arrow">
+						<div class="quest">От чего зависит стоимость клининга?</div>
+						<img class="tab_arrow" src="img/down-arrow.svg">
+					</div>
+
+					<div style="display: none;" class="answer">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+
+				<div class="quest_item">
+					<div class="quest_arrow">
+						<div class="quest">От чего зависит стоимость клининга?</div>
+						<img class="tab_arrow" src="img/down-arrow.svg">
+					</div>
+
+					<div style="display: none;" class="answer">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+
+				<div class="quest_item">
+					<div class="quest_arrow">
+						<div class="quest">От чего зависит стоимость клининга?</div>
+						<img class="tab_arrow" src="img/down-arrow.svg">
+					</div>
+
+					<div style="display: none;" class="answer">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+
+				<div class="quest_item">
+					<div class="quest_arrow">
+						<div class="quest">От чего зависит стоимость клининга?</div>
+						<img class="tab_arrow" src="img/down-arrow.svg">
+					</div>
+
+					<div style="display: none;" class="answer">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+			</div>
+
+			<div class="form_box">
+				<div class="form_title">
+					Оставьте заявку на <br> бесплатную консультацию
+				</div>
+
+				<div class="form_sub_title">Заполните простую форму обратной связи</div>
+
+				<input type="text" class="phone"  placeholder="Ваш номер телефона*">
+
+				<button class="univ_button">Подробнее</button>
+
+				<div class="about_mess">Или напишите нам в удобный для вас мессенджер</div>
+
+				<div class="icon_box">
+					<a href="https://t.me/Shirobokov_fm">
+						<img src="img/telegram.svg">
+					</a>
+
+					<a href="https://api.whatsapp.com/send?phone=79267402697">
+						<img src="img/whatsapp.svg">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html> 
